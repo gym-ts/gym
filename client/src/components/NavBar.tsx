@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar } from "flowbite-react";
 import { FacebookFilled,TwitterOutlined,PinterestOutlined  } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 const CustomNavbar = () => {
+    const navigate = useNavigate();
     return (
         <Navbar fluid rounded>
             <Navbar.Brand to="https://flowbite-react.com">
@@ -20,7 +22,7 @@ const CustomNavbar = () => {
             <Navbar.Toggle />
             <div className="d-flex justify-content-center align-items-center">
                 <Navbar.Collapse>
-                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{ color: '#9845AA',cursor:'pointer' }} to="#">
+                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{ color: '#9845AA',cursor:'pointer' }} onClick={()=>{navigate('/')}}>
                         Home
                     </Navbar.Link>
                     <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} to="#">
@@ -32,7 +34,7 @@ const CustomNavbar = () => {
                     <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} to="#">
                         Pricing
                     </Navbar.Link>
-                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} to="#">
+                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} onClick={()=>{navigate('/map')}}>
                         Contact
                     </Navbar.Link>
                 </Navbar.Collapse>
