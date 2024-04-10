@@ -1,5 +1,4 @@
 import React from 'react'
-import '../style/main.css'
 function About() {
   return (
     <div>

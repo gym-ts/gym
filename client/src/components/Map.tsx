@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/main.css';
 const MapEmbed = ({ location }:any) => {
   const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51151.845900840795!2d10.171676874160763!3d36.74680225846674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd36f5b1c678d1%3A0x8f9cd22408a75636!2sCentre%20De%20Traumatologie%20Et%20Des%20Grands%20Brul%C3%A9s!5e0!3m2!1sen!2stn!4v1712759820752!5m2!1sen!2stn
   `;

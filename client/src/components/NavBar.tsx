@@ -25,14 +25,14 @@ const CustomNavbar = () => {
                     <Navbar.Link className="hover:underline me-4 md:me-6" style={{ color: '#9845AA',cursor:'pointer' }} onClick={()=>{navigate('/')}}>
                         Home
                     </Navbar.Link>
-                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} to="#">
-                        About
+                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} onClick={()=>{navigate('/about')}}>
+                        About Us
                     </Navbar.Link>
-                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} to="#">
-                        Services
+                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} onClick={()=>{navigate('/offers')}}>
+                        What we offer
                     </Navbar.Link>
-                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} to="#">
-                        Pricing
+                    <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} onClick={()=>{navigate('/Personal-trainer')}} >
+                        Personal trainer
                     </Navbar.Link>
                     <Navbar.Link className="hover:underline me-4 md:me-6" style={{cursor:'pointer'}} onClick={()=>{navigate('/map')}}>
                         Contact
