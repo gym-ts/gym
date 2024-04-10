@@ -1,5 +1,5 @@
 import React from "react";
-import "../main.css";
+// import "../main.css";
 import Pricing from "./Pricing";
 function Landing() {
   return (
