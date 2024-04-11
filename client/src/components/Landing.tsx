@@ -1,6 +1,7 @@
 import React from "react";
 // import "../main.css";
 import Pricing from "./Pricing";
+import LandingStats from "./LandingStats";
 function Landing() {
   return (
     <div>
@@ -322,124 +323,25 @@ function Landing() {
         className="section mcb-section mcb-section-3a51e5bb6 dark"
         style={{
           paddingTop: "60px",
-          paddingBottom: "40px",
+          // paddingBottom: "40px",
           backgroundColor: "#1d1d22",
           backgroundImage:
             "url(https://themes.muffingroup.com/be/gym/wp-content/uploads/2015/04/home_gym_bg_counters.jpg)",
-          backgroundRepeat: "no-repeat",
+          // backgroundRepeat: "no-repeat",
           backgroundPosition: "center top",
         }}
       >
-        <div className="section_wrapper mcb-section-inner">
-          <div
-            className="wrap mcb-wrap mcb-wrap-2c5a6bfcf one  valign-top clearfix"
-            style={{}}
-          >
-            <div className="mcb-wrap-inner">
-              <div className="column mcb-column mcb-item-293e5cc29 one column_fancy_heading">
-                <div className="fancy_heading fancy_heading_icon">
-                  <div className="fh-top" />
-                  <h2 className="title">Numbers, numbers, numbers...</h2>
-                </div>
-              </div>
-              <div className="column mcb-column mcb-item-85ccec591 one-fourth column_counter">
-                <div className="counter counter_vertical animate-math">
-                  <div className="animate zoomIn" data-anim-type="zoomIn">
-                    <div className="icon_wrapper">
-                      <img
-                        src="https://themes.muffingroup.com/be/gym/wp-content/uploads/2017/01/home_gym_counter_1.png"
-                        alt="home_gym_counter_1"
-                        width={70}
-                        height={73}
-                      />
-                    </div>
-                    <div className="desc_wrapper">
-                      <div className="number-wrapper">
-                        <span className="number" data-to={1452}>
-                          1452
-                        </span>
-                      </div>
-                      <p className="title">Happy gym users</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="column mcb-column mcb-item-bd606368f one-fourth column_counter">
-                <div className="counter counter_vertical animate-math">
-                  <div className="animate zoomIn" data-anim-type="zoomIn">
-                    <div className="icon_wrapper">
-                      <img
-                        src="https://themes.muffingroup.com/be/gym/wp-content/uploads/2017/01/home_gym_counter_2.png"
-                        alt="home_gym_counter_2"
-                        width={70}
-                        height={73}
-                      />
-                    </div>
-                    <div className="desc_wrapper">
-                      <div className="number-wrapper">
-                        <span className="number" data-to={350}>
-                          350
-                        </span>
-                      </div>
-                      <p className="title">Square metters of space</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="column mcb-column mcb-item-4330a0cc3 one-fourth column_counter">
-                <div className="counter counter_vertical animate-math">
-                  <div className="animate zoomIn" data-anim-type="zoomIn">
-                    <div className="icon_wrapper">
-                      <img
-                        src="https://themes.muffingroup.com/be/gym/wp-content/uploads/2017/01/home_gym_counter_3.png"
-                        alt="home_gym_counter_3"
-                        width={70}
-                        height={73}
-                      />
-                    </div>
-                    <div className="desc_wrapper">
-                      <div className="number-wrapper">
-                        <span className="number" data-to={12}>
-                          12
-                        </span>
-                      </div>
-                      <p className="title">Instructors</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="column mcb-column mcb-item-007eba6e2 one-fourth column_counter">
-                <div className="counter counter_vertical animate-math">
-                  <div className="animate zoomIn" data-anim-type="zoomIn">
-                    <div className="icon_wrapper">
-                      <img
-                        src="https://themes.muffingroup.com/be/gym/wp-content/uploads/2017/01/home_gym_counter_4.png"
-                        alt="home_gym_counter_4"
-                        width={70}
-                        height={73}
-                      />
-                    </div>
-                    <div className="desc_wrapper">
-                      <div className="number-wrapper">
-                        <span className="number" data-to={7}>
-                          7
-                        </span>
-                      </div>
-                      <p className="title">Days a week</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div style={{marginLeft:'10rem',marginBottom:'60px'}}>
+     <LandingStats/>
+
         </div>
-      </div>
       <div
         className="section mcb-section mcb-section-e0c2f5a75"
         style={{
           paddingTop: "80px",
           paddingBottom: "40px",
-          backgroundColor: "#ebeeef",
+          backgroundColor: "#EBEEEF",
+          color:'black'
         }}
       >
         <div className="section_wrapper mcb-section-inner">
@@ -456,43 +358,50 @@ function Landing() {
                       lineHeight: "42px",
                       marginTop: "20px",
                       marginBottom: "30px",
+                      color:'#444444'
                     }}
                   >
                     Start your healthy
                     <br />
                     lifestyle today
                   </h2>
-                  <p className="big" style={{ marginBottom: "30px" }}>
+                  <p className="big" style={{ marginBottom: "30px",color:'#626262'}}>
                     Maecenas malesuada elit lectus felis, malesuada ultricies.
                     Curabitur et ligula. Ut molestie a, ultricies porta urna.
                     Vestibulum commodo. Olutpat a, convallis ac, laoreet enim.
                     Phasellus fermentum in, dolor. Pellentesque facilisis.
                   </p>
                   <a className="button  button_size_2 button_theme" href="#">
-                    <span className="button_label">Lorem ipsum dolor</span>
+                    <span className="button_label" style={{color:'#626262'}}>Lorem ipsum dolor</span>
                   </a>
                 </div>
               </div>
               <div className="column mcb-column mcb-item-34f7df511 one-fourth column_opening_hours">
                 <div className="opening_hours">
-                  <h3>Opening hours</h3>
+                  <h3 style={{color:'#626262',fontSize:'25px'}}>Opening hours</h3>
                   <div className="opening_hours_wrapper">
                     <span className="ohw-desc">
-                      <p>
+                      <p style={{color:'#626262',fontSize:'15px'}}>
                         Vitae adipiscing turpis. Aenean ligula nibh, molestie id
                         viverra a, dapibus at dolor.
                       </p>
                       <ul>
                         <li>
                           <label>Monday - Friday</label>
-                          <span>
+                          <span style={{color:'#9845AA'}}>
                             8<sup>00</sup> - 16<sup>00</sup>
                           </span>
                         </li>
                         <li>
                           <label>Saturday</label>
-                          <span>
+                          <span style={{color:'#9845AA'}}>
                             8<sup>00</sup> - 15<sup>00</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <label>Sunday</label>
+                          <span style={{color:'#9845AA'}}>
+                                OFF
                           </span>
                         </li>
                       </ul>
@@ -500,14 +409,14 @@ function Landing() {
                   </div>
                 </div>
               </div>
-              <div className="column mcb-column mcb-item-a8e096b21 one-fourth column_contact_box">
+              <div className="column mcb-column mcb-item-a8e096b21 one-fourth column_contact_box" style={{backgroundColor:'#9845AA'}}>
                 <div className="get_in_touch">
                   <h3>Contact us</h3>
-                  <div className="get_in_touch_wrapper">
+                  <div className="get_in_touch_wrapper" >
                     <ul>
                       <li className="address">
                         <span className="icon">
-                          <i className="icon-location" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
                         </span>
                         <span className="address_wrapper">
                           <strong>Envato</strong>
@@ -519,7 +428,7 @@ function Landing() {
                       </li>
                       <li className="phone phone-1">
                         <span className="icon">
-                          <i className="icon-phone" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg>
                         </span>
                         <p>
                           <a href="tel:+61(0)791803458">+61 (0) 7 9180 3458</a>
@@ -527,7 +436,7 @@ function Landing() {
                       </li>
                       <li className="mail">
                         <span className="icon">
-                          <i className="icon-mail" />
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/></svg>
                         </span>
                         <p>
                           <a href="mailto:noreply@envato.com">
@@ -537,7 +446,7 @@ function Landing() {
                       </li>
                       <li className="www">
                         <span className="icon">
-                          <i className="icon-link" />
+                        <svg width="24" height="24"  xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
                         </span>
                         <p>
                           <a target="_blank" href="https://www.envato.com/">
@@ -553,6 +462,7 @@ function Landing() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

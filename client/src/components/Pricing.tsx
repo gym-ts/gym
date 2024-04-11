@@ -16,15 +16,15 @@ function Pricing() {
         <div className="column mcb-column mcb-item-37c323869 one column_fancy_heading">
           <div className="fancy_heading fancy_heading_icon">
             <div className="fh-top" />
-            <h2 className="title">Check out pricing plans</h2>
+            <h2 className="title" style={{color:'#444444'}}>Check out pricing plans</h2>
           </div>
         </div>
-        <div className="column mcb-column mcb-item-69615bed8 one-fourth column_pricing_item">
-          <div className="pricing-box  pricing-box-box">
+        <div className="column mcb-column mcb-item-7d751350c one-fourth column_pricing_item" style={{height:'465px'}}>
+          <div className="pricing-box  pricing-box-box" style={{backgroundColor:'#FFFFFF', color:'#626262'}}>
             <div className="animate fadeIn" data-anim-type="fadeIn">
-              <div className="plan-header">
-                <h2>1 month</h2>
-                <div className="price">
+              <div className="plan-header" style={{color:'#444444'}}>
+                <h2 style={{color:'#444444'}}>1 month</h2>
+                <div style={{color:'#9845AA'}} className="price">
                   <sup className="currency">$</sup>
                   <span>29</span>
                   <sup className="period" />
@@ -59,19 +59,29 @@ function Pricing() {
                 </ul>
               </div>
               <div className="plan-footer">
-                <a href="#" className="button button_theme ">
-                  <span className="button_label">Sign up now</span>
-                </a>
+              <button
+                      className="bg-white text-black font-bold py-2 px-4 rounded mt-4"
+                      style={{
+                        backgroundColor: "#9845AA",
+                        borderRadius: "15px",
+                        color:'#FFFFFF',
+                        marginTop:'15px',
+
+                      }}
+                    >
+                      {" "}
+                      See how we train
+                    </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="column mcb-column mcb-item-29222cb8f one-fourth column_pricing_item">
-          <div className="pricing-box  pricing-box-box">
+        <div className="column mcb-column mcb-item-7d751350c one-fourth column_pricing_item" style={{height:'465px'}}>
+          <div className="pricing-box  pricing-box-box" style={{backgroundColor:'#FFFFFF', color:'#626262'}}>
             <div className="animate fadeIn" data-anim-type="fadeIn">
-              <div className="plan-header">
-                <h2>3 months</h2>
-                <div className="price">
+              <div className="plan-header" >
+                <h2 style={{color:'#444444'}}>3 months</h2>
+                <div style={{color:'#9845AA'}} className="price">
                   <sup className="currency">$</sup>
                   <span>49</span>
                   <sup className="period" />
@@ -106,21 +116,31 @@ function Pricing() {
                 </ul>
               </div>
               <div className="plan-footer">
-                <a href="#" className="button button_theme ">
-                  <span className="button_label">Sign up now</span>
-                </a>
+              <button
+                      className="bg-white text-black font-bold py-2 px-4 rounded mt-4"
+                      style={{
+                        backgroundColor: "#9845AA",
+                        borderRadius: "15px",
+                        color:'#FFFFFF',
+                        marginTop:'15px',
+
+                      }}
+                    >
+                      {" "}
+                      See how we train
+                    </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="column mcb-column mcb-item-7d751350c one-fourth column_pricing_item">
-          <div className="pricing-box  pricing-box-box">
+        <div className="column mcb-column mcb-item-7d751350c one-fourth column_pricing_item" style={{height:'465px'}}>
+          <div className="pricing-box  pricing-box-box" style={{backgroundColor:'#FFFFFF', color:'#626262'}}>
             <div className="animate fadeIn" data-anim-type="fadeIn">
-              <div className="plan-header">
-                <h2>6 months</h2>
-                <div className="price">
-                  <sup className="currency">$</sup>
-                  <span>69</span>
+              <div className="plan-header" style={{color:'#444444'}}>
+                <h2 style={{color:'#444444'}}>6 months</h2>
+                <div  style={{color:'#9845AA'}} className="price">
+                  <sup  className="currency">$</sup>
+                  <span >69</span>
                   <sup className="period" />
                 </div>
                 <hr className="hr_color" />
@@ -153,19 +173,28 @@ function Pricing() {
                 </ul>
               </div>
               <div className="plan-footer">
-                <a href="#" className="button button_theme ">
-                  <span className="button_label">Sign up now</span>
-                </a>
+              <button   
+                      className="bg-white text-black font-bold py-2 px-4 rounded mt-4"
+                      style={{
+                        marginTop:'50px',
+                        backgroundColor: "#9845AA",
+                        borderRadius: "15px",
+                        color:'#FFFFFF'
+                      }}
+                    >
+                      {" "}
+                      See how we train
+                    </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="column mcb-column mcb-item-ebfb7053f one-fourth column_pricing_item">
-          <div className="pricing-box  pricing-box-box">
+        <div className="column mcb-column mcb-item-7d751350c one-fourth column_pricing_item" style={{height:'465px'}}>
+          <div className="pricing-box  pricing-box-box" style={{backgroundColor:'#FFFFFF', color:'#626262'}}>
             <div className="animate fadeIn" data-anim-type="fadeIn">
-              <div className="plan-header">
-                <h2>1 year</h2>
-                <div className="price">
+              <div className="plan-header" style={{color:'#444444'}}>
+                <h2 style={{color:'#444444'}}>1 year</h2>
+                <div style={{color:'#9845AA'}} className="price">
                   <sup className="currency">$</sup>
                   <span>99</span>
                   <sup className="period" />
@@ -200,9 +229,19 @@ function Pricing() {
                 </ul>
               </div>
               <div className="plan-footer">
-                <a href="#" className="button button_theme ">
-                  <span className="button_label">Sign up now</span>
-                </a>
+              <button
+                      className="bg-white text-black font-bold py-2 px-4 rounded mt-4"
+                      style={{
+                        backgroundColor: "#9845AA",
+                        borderRadius: "15px",
+                        color:'#FFFFFF',
+                        marginTop:'50px',
+
+                      }}
+                    >
+                      {" "}
+                      See how we train
+                    </button>
               </div>
             </div>
           </div>

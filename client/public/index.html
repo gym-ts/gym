@@ -19,17 +19,30 @@
   <!-- If you open it directly in the browser, you will see an empty page. -->
   <!-- You can add webfonts, meta tags, or analytics to this file. -->
   <!-- The build step will place the bundled scripts into the <body> tag. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-  <script>
-    // Fetch the content of data.txt and insert it as a <style> element in the <head>
-    fetch('https://raw.githubusercontent.com/Youssefabdellatif33/cdn/main/data.txt')
-      .then(response => response.text())
-      .then(data => {
-        const styleElement = document.createElement('style');
-        styleElement.textContent = data;
-        document.head.appendChild(styleElement);
-      })
-      .catch(error => console.error('Error fetching data.txt:', error));
-  </script>
+    
+    <script>
+      // Fetch the content of data.txt and insert it as a <style> element in the <head>
+        fetch('https://raw.githubusercontent.com/Youssefabdellatif33/cdn/main/data.txt')
+        .then(response => response.text())
+        .then(data => {
+          const styleElement = document.createElement('style');
+          styleElement.textContent = data;
+          document.head.appendChild(styleElement);
+        })
+        .catch(error => console.error('Error fetching data.txt:', error));
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+        <script>
+          window.embeddedChatbotConfig = {
+          chatbotId: "nhcz5rsPgRSrMr6U5h4D2",
+          domain: "www.chatbase.co"
+          }
+          </script>
+          <script
+          src="https://www.chatbase.co/embed.min.js"
+          chatbotId="nhcz5rsPgRSrMr6U5h4D2"
+          domain="www.chatbase.co"
+          defer>
+          </script>
 </body>
 </html>

@@ -50,7 +50,8 @@ function PersonalTrainer() {
                         laoreet enim. Phasellus fermentum in, dolor.
                         Pellentesque facilisis. Nulla imperdiet sit amet magna.
                       </p>
-                      <ul className="list_check">
+                      <br/>
+                      <ul style={{color:'#9845aa'}}>
                         <li>Vestibulum commodo volutpat</li>
                         <li>Quisque lorem</li>
                         <li>Donec aliquam velit</li>
@@ -64,20 +65,75 @@ function PersonalTrainer() {
                         Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum
                         sociis natoque penatibus et ultrices volutpat.
                       </p>
+                      <br/>
+                      <br/>
+                      <div>
                       <center>
-                        <a className="content_link " href="#">
-                          <span className="icon">
-                            <i className="icon-book-open" />
-                          </span>
-                          <span className="title">About us</span>
-                        </a>
-                        <a className="content_link " href="#">
-                          <span className="icon">
-                            <i className="icon-location" />
-                          </span>
-                          <span className="title">Locations</span>
-                        </a>
+                      <a
+                        className="content_link"
+                        href="#"
+                        style={{
+                          backgroundColor: "white",
+                          color: "black",
+                          display: "inline-block",
+                          height: "100%",
+                          verticalAlign: "middle",
+                          marginRight: "30px"
+                        }}
+                      >
+                        <span
+                          className="icon"
+                          style={{
+                            display: "inline-block",
+                            verticalAlign: "middle",
+                          }}
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="50"
+                            height="50"
+                            fill="#9845aa"
+                          >
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 15c0 1.66 1.34 3 3 3s3-1.34 3-3V9c0-1.66-1.34-3-3-3s-3 1.34-3 3v6zm1-12C6.48 3 3 6.48 3 11c0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-3.31 2.69-6 6-6s6 2.69 6 6c0 3.31-2.69 6-6 6z" />
+                          </svg>
+                        </span>
+                        <span className="title">Quisque lorem</span>
+                      </a>
+                      <a
+                        className="content_link"
+                        href="#"
+                        style={{
+                          backgroundColor: "white",
+                          color: "black",
+                          display: "inline-block",
+                          height: "100%",
+                          verticalAlign: "middle",
+                        }}
+                      >
+                        <span
+                          className="icon"
+                          style={{
+                            display: "inline-block",
+                            verticalAlign: "middle",
+                          }}
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="50"
+                            height="50"
+                            fill="#9845aa"
+                          >
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 15c0 1.66 1.34 3 3 3s3-1.34 3-3V9c0-1.66-1.34-3-3-3s-3 1.34-3 3v6zm1-12C6.48 3 3 6.48 3 11c0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-3.31 2.69-6 6-6s6 2.69 6 6c0 3.31-2.69 6-6 6z" />
+                          </svg>
+                        </span>
+                        <span className="title">Quisque lorem</span>
+                      </a>
                       </center>
+                    </div>
                     </div>
                   </div>
                 </div>

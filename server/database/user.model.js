@@ -1,14 +1,5 @@
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize('gym', 'root', 'Yeesou.33', {
-  host: 'localhost',
-  dialect: 'mysql',
-});
 
-
-const db ={}
-db.Sequelize = Sequelize;
-db.sequelize = sequelize;
-
+module.exports = (sequelize, DataTypes) => {
 const User = sequelize.define('User', {
     FirstName: {
       type: DataTypes.STRING,
@@ -38,13 +29,4 @@ const User = sequelize.define('User', {
         allowNull:false
     }
   })
-// sequelize.sync()
-// .then(() => {
-//     console.log('Database and tables created!');
-// })
-// .catch((error) => {
-//     console.error('Error creating database and/or tables:', error);
-// });
-module.exports = {
-    User
 }
